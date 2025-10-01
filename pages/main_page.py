@@ -1,4 +1,5 @@
 from .base_page import BasePage
+from config.urls import BASE_URL
 
 
 class MainPage(BasePage):
@@ -31,7 +32,7 @@ class MainPage(BasePage):
     
     def open_main_page(self):
         """Открыть главную страницу и принять куки"""
-        self.driver.get("https://qa-scooter.praktikum-services.ru/")
+        self.driver.get(BASE_URL)
         self.accept_cookies()
     
     def click_question(self, question_number):
@@ -59,29 +60,3 @@ class MainPage(BasePage):
     def click_yandex_logo(self):
         """Кликнуть логотип Яндекса"""
         self.click_element(self.YANDEX_LOGO)
-    
-    def switch_to_new_window(self):
-        """Переключиться на новое окно"""
-        windows = self.driver.window_handles
-        if len(windows) > 1:
-            self.driver.switch_to.window(windows[-1])
-            return True
-        return False
-
-    def wait_for_new_window(self, original_window, timeout=10):
-        """Ждать открытия нового окна"""
-        import time
-        start_time = time.time()
-        while time.time() - start_time < timeout:
-            if len(self.driver.window_handles) > 1:
-                return True
-            time.sleep(0.5)
-        return False
-
-    def is_main_page_loaded(self):
-        """Проверить что главная страница загружена"""
-        try:
-            self.driver.find_element("xpath", "//div[contains(@class, 'Home_Header')]")
-            return True
-        except:
-            return False

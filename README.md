@@ -65,8 +65,7 @@ Sprint_6/
 ### Установка зависимостей
 
 pip install -r requirements.txt
-Запуск тестов
-bash
+
 # Полный набор тестов с генерацией отчета
 python -m pytest tests/ --alluredir=allure-results -v
 
@@ -75,7 +74,7 @@ python -m pytest tests/test_accordion.py -v
 python -m pytest tests/test_order.py -v
 python -m pytest tests/test_navigation.py -v
 Генерация отчетов
-bash
+
 # Интерактивный отчет
 allure serve allure-results
 

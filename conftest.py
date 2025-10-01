@@ -4,6 +4,11 @@ from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 import os
+import logging
+
+# Настройка логирования
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 @pytest.fixture(scope="function")
@@ -16,23 +21,15 @@ def driver():
     options.add_argument("--height=1080")
     
     try:
-        # Поиск geckodriver
-        geckodriver_paths = [
-            "C:\\WebDriver\\bin\\geckodriver.exe",
-            "C:\\Program Files\\Mozilla Firefox\\geckodriver.exe",
-            "geckodriver.exe",
-        ]
+        # Используем переменные окружения или системный geckodriver
+        geckodriver_path = os.environ.get('GECKODRIVER_PATH')
         
-        service = None
-        for path in geckodriver_paths:
-            if os.path.exists(path):
-                service = Service(executable_path=path)
-                print(f"Используем geckodriver: {path}")
-                break
-        
-        if service is None:
+        if geckodriver_path and os.path.exists(geckodriver_path):
+            service = Service(executable_path=geckodriver_path)
+            logger.info(f"Используем geckodriver из переменной окружения: {geckodriver_path}")
+        else:
             service = Service()
-            print("Используем системный geckodriver")
+            logger.info("Используем системный geckodriver")
         
         driver = webdriver.Firefox(service=service, options=options)
         driver.implicitly_wait(10)
@@ -43,7 +40,7 @@ def driver():
         driver.quit()
         
     except Exception as e:
-        print(f"Ошибка при запуске драйвера: {e}")
+        logger.error(f"Ошибка при запуске драйвера: {e}")
         raise
 
 
