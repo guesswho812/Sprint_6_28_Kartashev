@@ -1,0 +1,1 @@
+INFO:conftest:Используем системный geckodriver

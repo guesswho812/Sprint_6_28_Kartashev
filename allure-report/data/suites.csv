@@ -1,0 +1,22 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Oct 02 20:48:04 MSK 2025","Thu Oct 02 20:48:06 MSK 2025","1634","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №3",""
+"passed","Thu Oct 02 20:48:17 MSK 2025","Thu Oct 02 20:48:19 MSK 2025","1520","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №4",""
+"passed","Thu Oct 02 20:50:30 MSK 2025","Thu Oct 02 20:50:33 MSK 2025","2879","tests","test_order","TestOrder","","","Заказ самоката - нижняя кнопка, Петр Петров","Параметризованный тест заказа самоката"
+"passed","Thu Oct 02 20:48:56 MSK 2025","Thu Oct 02 20:48:57 MSK 2025","999","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №7",""
+"passed","Thu Oct 02 20:49:47 MSK 2025","Thu Oct 02 20:49:50 MSK 2025","2964","tests","test_order","TestOrder","","","Заказ самоката - верхняя кнопка, Иван Иванов","Параметризованный тест заказа самоката"
+"passed","Thu Oct 02 20:48:30 MSK 2025","Thu Oct 02 20:48:31 MSK 2025","1027","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №5",""
+"passed","Thu Oct 02 20:47:38 MSK 2025","Thu Oct 02 20:47:39 MSK 2025","1615","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №1",""
+"passed","Thu Oct 02 20:50:16 MSK 2025","Thu Oct 02 20:50:19 MSK 2025","2839","tests","test_order","TestOrder","","","Заказ самоката - нижняя кнопка, Иван Иванов","Параметризованный тест заказа самоката"
+"passed","Thu Oct 02 20:49:34 MSK 2025","Thu Oct 02 20:49:35 MSK 2025","1532","tests","test_navigation","TestNavigation","","","Проверка перехода по логотипу Яндекса","
+    Проверка что клик по логотипу Яндекса открывает новое окно/вкладку
+    с переходом на главную страницу Дзена.
+    Ожидаемое поведение: открывается новое окно с URL содержащим 'dzen.ru'.
+    "
+"passed","Thu Oct 02 20:49:08 MSK 2025","Thu Oct 02 20:49:10 MSK 2025","1509","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №8",""
+"passed","Thu Oct 02 20:47:51 MSK 2025","Thu Oct 02 20:47:53 MSK 2025","1664","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №2",""
+"passed","Thu Oct 02 20:48:43 MSK 2025","Thu Oct 02 20:48:44 MSK 2025","1085","tests","test_accordion","TestAccordion","","","Проверка аккордеона: вопрос №6",""
+"passed","Thu Oct 02 20:50:01 MSK 2025","Thu Oct 02 20:50:04 MSK 2025","2803","tests","test_order","TestOrder","","","Заказ самоката - верхняя кнопка, Петр Петров","Параметризованный тест заказа самоката"
+"passed","Thu Oct 02 20:49:21 MSK 2025","Thu Oct 02 20:49:22 MSK 2025","988","tests","test_navigation","TestNavigation","","","Проверка перехода по логотипу Самоката","
+    Проверка что клик по логотипу Самоката возвращает на главную страницу.
+    Ожидаемое поведение: остаемся на текущей странице с главным URL.
+    "

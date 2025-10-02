@@ -49,20 +49,18 @@ class TestNavigation:
             main_page.click_yandex_logo()
         
         with allure.step("Дождаться открытия нового окна и переключиться"):
-            # Ждем открытия нового окна
-            if main_page.wait_for_new_window(original_window, timeout=10):
-                main_page.switch_to_new_window()
+            # Ждем открытия нового окна - используем assert вместо if
+            main_page.wait_for_new_window(original_window, timeout=10)
+            main_page.switch_to_new_window()
                 
-                # Ждем загрузки страницы Дзена
-                with allure.step("Ожидать загрузки страницы Дзена"):
-                    main_page.wait_for_url_contains("dzen.ru", timeout=10)
-                
-                with allure.step("Проверить что открылась страница Дзена"):
-                    current_url = main_page.get_current_url()
-                    assert "dzen.ru" in current_url, f"Ожидался URL содержащий 'dzen.ru', получен: {current_url}"
-                
-                with allure.step("Закрыть новое окно и вернуться на главную"):
-                    main_page.close_current_window()
-                    main_page.switch_to_window(original_window)
-            else:
-                pytest.fail("Новое окно не открылось после клика на логотип Яндекса")
+            # Ждем загрузки страницы Дзена
+            with allure.step("Ожидать загрузки страницы Дзена"):
+                main_page.wait_for_url_contains("dzen.ru", timeout=10)
+            
+            with allure.step("Проверить что открылась страница Дзена"):
+                current_url = main_page.get_current_url()
+                assert "dzen.ru" in current_url, f"Ожидался URL содержащий 'dzen.ru', получен: {current_url}"
+            
+            with allure.step("Закрыть новое окно и вернуться на главную"):
+                main_page.close_current_window()
+                main_page.switch_to_window(original_window)

@@ -1,6 +1,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.common.exceptions import TimeoutException
 import allure
 import time
 
@@ -108,9 +109,7 @@ class BasePage:
     @allure.step("Ждать пока URL содержит '{text}'")
     def wait_for_url_contains(self, text, timeout=10):
         """Ждать пока URL содержит указанный текст"""
-        start_time = time.time()
-        while time.time() - start_time < timeout:
-            if text in self.driver.current_url:
-                return True
-            time.sleep(0.5)
-        return False
+        try:
+            return self.wait.until(EC.url_contains(text))
+        except TimeoutException:
+            return False

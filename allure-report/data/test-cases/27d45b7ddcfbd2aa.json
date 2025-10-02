@@ -1,0 +1,329 @@
+{
+  "uid" : "27d45b7ddcfbd2aa",
+  "name" : "Проверка аккордеона: вопрос №5",
+  "fullName" : "tests.test_accordion.TestAccordion#test_accordion_question_opens_correct_answer",
+  "historyId" : "fa8ac0882ae7b89b0f2335182e588e28",
+  "time" : {
+    "start" : 1759427310945,
+    "stop" : 1759427311972,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1759427306016,
+      "stop" : 1759427310944,
+      "duration" : 4928
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу и принять куки",
+      "time" : {
+        "start" : 1759427310945,
+        "stop" : 1759427311947,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Принять куки если баннер присутствует",
+        "time" : {
+          "start" : 1759427311927,
+          "stop" : 1759427311947,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Кликнуть на элемент: ['id', 'rcc-confirm-button']",
+          "time" : {
+            "start" : 1759427311927,
+            "stop" : 1759427311947,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Прокрутить страницу к элементу: ['id', 'rcc-confirm-button']",
+            "time" : {
+              "start" : 1759427311927,
+              "stop" : 1759427311944,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Найти элемент: ['id', 'rcc-confirm-button']",
+              "time" : {
+                "start" : 1759427311927,
+                "stop" : 1759427311942,
+                "duration" : 15
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "locator",
+                "value" : "['id', 'rcc-confirm-button']"
+              } ],
+              "hasContent" : true,
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "['id', 'rcc-confirm-button']"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "['id', 'rcc-confirm-button']"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Кликнуть на вопрос №5",
+      "time" : {
+        "start" : 1759427311947,
+        "stop" : 1759427311961,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент: ['id', 'accordion__heading-4']",
+        "time" : {
+          "start" : 1759427311947,
+          "stop" : 1759427311961,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Прокрутить страницу к элементу: ['id', 'accordion__heading-4']",
+          "time" : {
+            "start" : 1759427311947,
+            "stop" : 1759427311956,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Найти элемент: ['id', 'accordion__heading-4']",
+            "time" : {
+              "start" : 1759427311947,
+              "stop" : 1759427311953,
+              "duration" : 6
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "['id', 'accordion__heading-4']"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "['id', 'accordion__heading-4']"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "['id', 'accordion__heading-4']"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить текст ответа",
+      "time" : {
+        "start" : 1759427311961,
+        "stop" : 1759427311971,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить текст элемента: ['id', 'accordion__panel-4']",
+        "time" : {
+          "start" : 1759427311961,
+          "stop" : 1759427311971,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Найти элемент: ['id', 'accordion__panel-4']",
+          "time" : {
+            "start" : 1759427311961,
+            "stop" : 1759427311967,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "['id', 'accordion__panel-4']"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "['id', 'accordion__panel-4']"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f63ecb6d11b6f049",
+      "name" : "log",
+      "source" : "f63ecb6d11b6f049.txt",
+      "type" : "text/plain",
+      "size" : 93
+    }, {
+      "uid" : "509800341c459f46",
+      "name" : "stderr",
+      "source" : "509800341c459f46.txt",
+      "type" : "text/plain",
+      "size" : 66
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1759427311973,
+      "stop" : 1759427314538,
+      "duration" : 2565
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Аккордеон с вопросами"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "Открытие ответов на вопросы"
+  }, {
+    "name" : "epic",
+    "value" : "Яндекс.Самокат"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_accordion"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccordion"
+  }, {
+    "name" : "host",
+    "value" : "shugardady"
+  }, {
+    "name" : "thread",
+    "value" : "6664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_accordion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_answer",
+    "value" : "'Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010.'"
+  }, {
+    "name" : "question_number",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27d45b7ddcfbd2aa.json",
+  "parameterValues" : [ "'Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010.'", "5" ]
+}

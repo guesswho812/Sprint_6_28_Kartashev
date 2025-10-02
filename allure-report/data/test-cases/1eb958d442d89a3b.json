@@ -1,0 +1,305 @@
+{
+  "uid" : "1eb958d442d89a3b",
+  "name" : "Проверка перехода по логотипу Самоката",
+  "fullName" : "tests.test_navigation.TestNavigation#test_scooter_logo_navigation",
+  "historyId" : "05bb634fed3f948d6197be99d1b345b4",
+  "time" : {
+    "start" : 1759427361729,
+    "stop" : 1759427362717,
+    "duration" : 988
+  },
+  "description" : "\n    Проверка что клик по логотипу Самоката возвращает на главную страницу.\n    Ожидаемое поведение: остаемся на текущей странице с главным URL.\n    ",
+  "descriptionHtml" : "<pre><code>Проверка что клик по логотипу Самоката возвращает на главную страницу.\nОжидаемое поведение: остаемся на текущей странице с главным URL.\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1759427356817,
+      "stop" : 1759427361729,
+      "duration" : 4912
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Проверка что клик по логотипу Самоката возвращает на главную страницу.\n    Ожидаемое поведение: остаемся на текущей странице с главным URL.\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу",
+      "time" : {
+        "start" : 1759427361729,
+        "stop" : 1759427362703,
+        "duration" : 974
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Принять куки если баннер присутствует",
+        "time" : {
+          "start" : 1759427362681,
+          "stop" : 1759427362703,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Кликнуть на элемент: ['id', 'rcc-confirm-button']",
+          "time" : {
+            "start" : 1759427362681,
+            "stop" : 1759427362703,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Прокрутить страницу к элементу: ['id', 'rcc-confirm-button']",
+            "time" : {
+              "start" : 1759427362681,
+              "stop" : 1759427362700,
+              "duration" : 19
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Найти элемент: ['id', 'rcc-confirm-button']",
+              "time" : {
+                "start" : 1759427362681,
+                "stop" : 1759427362697,
+                "duration" : 16
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "locator",
+                "value" : "['id', 'rcc-confirm-button']"
+              } ],
+              "hasContent" : true,
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "['id', 'rcc-confirm-button']"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "['id', 'rcc-confirm-button']"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Кликнуть на логотип Самоката",
+      "time" : {
+        "start" : 1759427362703,
+        "stop" : 1759427362716,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликнуть на элемент: ['xpath', \"//img[@alt='Scooter']\"]",
+        "time" : {
+          "start" : 1759427362703,
+          "stop" : 1759427362716,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Прокрутить страницу к элементу: ['xpath', \"//img[@alt='Scooter']\"]",
+          "time" : {
+            "start" : 1759427362703,
+            "stop" : 1759427362711,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Найти элемент: ['xpath', \"//img[@alt='Scooter']\"]",
+            "time" : {
+              "start" : 1759427362703,
+              "stop" : 1759427362709,
+              "duration" : 6
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "locator",
+              "value" : "['xpath', \"//img[@alt='Scooter']\"]"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "['xpath', \"//img[@alt='Scooter']\"]"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "['xpath', \"//img[@alt='Scooter']\"]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить URL главной страницы",
+      "time" : {
+        "start" : 1759427362716,
+        "stop" : 1759427362717,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить текущий URL",
+        "time" : {
+          "start" : 1759427362716,
+          "stop" : 1759427362717,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "19c361c81c63ed20",
+      "name" : "log",
+      "source" : "19c361c81c63ed20.txt",
+      "type" : "text/plain",
+      "size" : 93
+    }, {
+      "uid" : "825e59eff7827fc6",
+      "name" : "stderr",
+      "source" : "825e59eff7827fc6.txt",
+      "type" : "text/plain",
+      "size" : 66
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1759427362717,
+      "stop" : 1759427365295,
+      "duration" : 2578
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Навигация по логотипам"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "Яндекс.Самокат"
+  }, {
+    "name" : "story",
+    "value" : "Навигация на главную страницу"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_navigation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNavigation"
+  }, {
+    "name" : "host",
+    "value" : "shugardady"
+  }, {
+    "name" : "thread",
+    "value" : "6664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1eb958d442d89a3b.json",
+  "parameterValues" : [ ]
+}
