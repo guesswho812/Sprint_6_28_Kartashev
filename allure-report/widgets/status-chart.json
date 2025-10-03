@@ -1,0 +1,141 @@
+[ {
+  "uid" : "7258397eb1540e89",
+  "name" : "Проверка аккордеона: вопрос №3",
+  "time" : {
+    "start" : 1759427284651,
+    "stop" : 1759427286285,
+    "duration" : 1634
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5460315e27bf7375",
+  "name" : "Проверка аккордеона: вопрос №4",
+  "time" : {
+    "start" : 1759427297825,
+    "stop" : 1759427299345,
+    "duration" : 1520
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f3feb09bb16d2c14",
+  "name" : "Заказ самоката - нижняя кнопка, Петр Петров",
+  "time" : {
+    "start" : 1759427430714,
+    "stop" : 1759427433593,
+    "duration" : 2879
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c00498fcf7efad50",
+  "name" : "Проверка аккордеона: вопрос №7",
+  "time" : {
+    "start" : 1759427336137,
+    "stop" : 1759427337136,
+    "duration" : 999
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "987381fe826bcfec",
+  "name" : "Заказ самоката - верхняя кнопка, Иван Иванов",
+  "time" : {
+    "start" : 1759427387379,
+    "stop" : 1759427390343,
+    "duration" : 2964
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "27d45b7ddcfbd2aa",
+  "name" : "Проверка аккордеона: вопрос №5",
+  "time" : {
+    "start" : 1759427310945,
+    "stop" : 1759427311972,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c401d2e599293a9a",
+  "name" : "Проверка аккордеона: вопрос №1",
+  "time" : {
+    "start" : 1759427258171,
+    "stop" : 1759427259786,
+    "duration" : 1615
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "81b3334f0b8759b8",
+  "name" : "Заказ самоката - нижняя кнопка, Иван Иванов",
+  "time" : {
+    "start" : 1759427416323,
+    "stop" : 1759427419162,
+    "duration" : 2839
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4f665f45a4e6bdcd",
+  "name" : "Проверка перехода по логотипу Яндекса",
+  "time" : {
+    "start" : 1759427374267,
+    "stop" : 1759427375799,
+    "duration" : 1532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6339a51725ff3145",
+  "name" : "Проверка аккордеона: вопрос №8",
+  "time" : {
+    "start" : 1759427348644,
+    "stop" : 1759427350153,
+    "duration" : 1509
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d5be34915fec13eb",
+  "name" : "Проверка аккордеона: вопрос №2",
+  "time" : {
+    "start" : 1759427271410,
+    "stop" : 1759427273074,
+    "duration" : 1664
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "831fe18efce387c9",
+  "name" : "Проверка аккордеона: вопрос №6",
+  "time" : {
+    "start" : 1759427323499,
+    "stop" : 1759427324584,
+    "duration" : 1085
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ff25e35934ab2ce",
+  "name" : "Заказ самоката - верхняя кнопка, Петр Петров",
+  "time" : {
+    "start" : 1759427401950,
+    "stop" : 1759427404753,
+    "duration" : 2803
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1eb958d442d89a3b",
+  "name" : "Проверка перехода по логотипу Самоката",
+  "time" : {
+    "start" : 1759427361729,
+    "stop" : 1759427362717,
+    "duration" : 988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
